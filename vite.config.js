@@ -9,9 +9,4 @@ export default defineConfig({
     vue(),
   ],
   base: "/Stem",
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
 })
